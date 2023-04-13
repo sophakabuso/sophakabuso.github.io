@@ -1,0 +1,371 @@
+.bodycontainer {
+	width: 950px;
+	border: 2px solid #5b5656;;
+	color: #666666;
+	background-color: #0c0b0cec;
+	border-radius: 15px;
+	background-position: center;
+	font-family: Georgia, times, serif;
+	line-height: 1.4em;
+	
+	}    
+	
+	#header {
+		width: 940px;
+		height: 200px;
+		border-radius: 15px;
+		border: 1px solid #ee1127;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		background-color: #f2f2f2;
+		
+	
+	
+	}
+
+	#header h1{
+		padding-left: 32px;
+	}
+	
+	
+	nav ul {
+		list-style: none;
+		margin: 0;
+		padding-right: 32px; ;
+		border-radius: 15px;
+	
+	}
+	
+	nav li {
+		display: inline-block;
+		margin-left: 20px;
+	}
+	
+	nav a {
+	
+		text-decoration: none;
+	}
+	
+	
+	
+	  #logo-container {
+		width: 940px;
+		height: 50px;
+	  }
+	  #logo {
+
+		object-fit: contain;
+		float: left;
+		width: 30%;
+		height: 30%;
+		object-fit: contain;
+	  }
+	
+	  #nav a:hover {
+		color: #0066cc;
+		box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+	
+	
+	}
+
+
+
+	  .maincontainer {
+		border-radius: 15px;
+		width: 940px;
+		margin: 20px auto 2px auto;
+		background-color: rgba(246, 251, 248, 0.968);
+		min-height: fit-content;
+		height: 1500px;
+		border: 1px solid #ee1127;
+		margin-top: 2px;
+		}
+
+
+     .maincontainer h1 {
+		padding: 10px 32px 20px 20px;
+		margin: 10px 20px 20px 20px;
+	 }
+	 .maincontainer h2{
+		padding: 0px 0px 0px 0px;
+		margin: 1px 0px 0px 0px;
+        font-size: xx-small;
+		text-align: center;
+	 }
+	  
+	
+	#videocontainer {
+				width: 930px;
+				height: 500px;
+				border: 1px solid #ccc;
+			  }
+			  
+			  video {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;}
+	#imageocontainer {
+					width: 930px;
+					height: 360px;
+					border: 1px solid #eb0d0d;
+					border-radius: 50%;
+				  }
+				  #imageocontainer img {
+					width: 100%;
+					height: 100%;
+					object-fit: cover;
+					
+					align-items  :right;
+					padding-right :20vh;
+					padding: 30px;
+					border: 1px solid #eb0d0d;
+				}
+                 
+			
+
+			#biocontainer{
+				padding-left: 50px;
+				 padding-top: 50px;
+				 margin-top: 5px;
+			}
+
+
+
+				
+			.skill-list {
+				display: flex;
+				flex-wrap: wrap;
+				padding: 0px 20px 0px 10px;
+		        margin: 0px 10px 600px 10px;
+			  }
+			  
+			  .skill-item {
+				margin: 0px;
+				width: 200px;
+		
+				border-radius: 16px;
+				overflow: hidden;
+				display: flex;
+			  }
+			  
+			  .skill-logo {
+				width: 50px;
+				height: 50px;
+				object-fit: cover;
+				border-radius: 50%;
+			  }
+			  
+			  .skill-info {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				margin-left: 16px;
+			  }
+			  
+			  .skill-name {
+				font-size: 24px;
+				font-weight: bold;
+				margin-bottom: 8px;
+			  }
+			  
+			  .skill-level {
+				font-size: 18px;
+			  }
+			 
+			 
+			  .personal-info{
+				display: flex;
+				flex-wrap: wrap;
+				padding: 0px 0px 0px 10px;
+		        margin: 0px 10px 0px 10px;
+				
+				width: 200px;
+		
+				border-radius: 16px;
+				overflow: hidden;
+				display: flex;
+			  
+
+			  }
+			 
+			  #personalInfo {
+				
+				display: flex;
+				flex-wrap: wrap;
+				padding: 0px  0px 0px 0px;
+		        margin: 0px 0px 700px 0px;
+				object-fit: cover;
+			  }
+			#personalInfo ul {
+							
+				padding: 0px  0px 0px 0px;
+		        margin: 0px 0px 0px 0px;
+			  }
+			  
+			  #personalInfo li {
+				padding: 20px 0px 0px 0px;
+		        margin: 10px 0px 0px 0px;
+			  }
+	
+	
+			
+
+				#educationInfo {
+			
+		            
+
+				display: flex;
+				flex-wrap: wrap;
+				padding: 0px 20px 0px 10px;
+		        margin: 0px 10px 0px 10px;
+				object-fit: cover;
+				}
+
+					
+					
+				.work-info{
+					padding: 10px 20px 20px 20px;
+		            margin: 10px 20px 20px 20px;
+					
+				}
+
+				
+					
+			.work-info	li {
+				display: flex;
+				flex-wrap: wrap;
+				padding: 0px 20px 0px 0px;
+		        margin: 0px 10px 0px 0px; 
+				object-fit: cover;
+						
+					  }
+					  
+					  .company {
+						font-weight: bold;
+					  }
+					  
+					  .position {
+						font-style: italic;
+					  }
+					  
+					  .date {
+						font-size: 0.8em;
+						margin-bottom: 10px;
+					  }
+					  
+					  .responsibilities {
+						margin-left: 1px;}
+						
+						
+						
+						
+						.formcontainer{
+
+							
+                          max-height: 1600px;
+						}
+						form {
+							display: flex;
+							flex-direction: column;
+				
+							
+							margin: 0 auto;
+							padding: 20px;
+							background-color: #f7f7f7;
+							border-radius: 10px;
+						  }
+						  
+						  input[type="text"],
+						  input[type="email"],
+						  input[type="tel"],
+						  textarea {
+							margin: 10px 0;
+							padding: 10px;
+							border-radius: 5px;
+							border: none;
+							background-color: #fff;
+							box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+						  }
+						  
+						  textarea {
+							height: 400px;
+						  }
+						  
+						  button[type="submit"] {
+							margin-top: 10px;
+							padding: 10px 20px;
+							background-color: #007bff;
+							color: #fff;
+							border: none;
+							border-radius: 5px;
+							cursor: pointer;
+						  }
+						  
+						  button[type="submit"]:hover {
+							background-color: #020a13;}
+
+
+	.footercontainer{
+
+        width: 940px;
+		height: 200px;
+		border-radius: 15px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		border: 1px solid #ee1127;
+		background-color: #f2f2f2
+
+	
+	
+	
+	
+	
+			}
+
+			#address {
+				font-size: 16px;
+				margin-bottom: 20px;
+				padding-left: 20px;
+			}
+			
+			#map {
+				height: 150px;
+				width: 200px;
+				
+				padding: 10px 20px 20px 20px;
+		        margin: 10px 20px 20px 20px;
+			    border-radius:16px ;
+				object-fit: cover;
+				
+				
+			}
+			
+			
+			.social-icon {
+				height: 50px;
+				width: 50px;
+				margin-right: 10px;
+				border-radius:16px ;
+				border: 1px solid black;
+				object-fit: cover;
+			
+			}
+			
+			#social-media {
+				display: flex;
+				align-items: top;
+				padding: 10px 20px 20px 20px;
+		        margin: 10px 20px 20px 20px;
+			}
+						
+						  
+						  
+						
+						  
+						  
+						  
+						  
+						  
+						  
