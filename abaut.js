@@ -18,9 +18,9 @@ const a1 = document.createElement("a");
 const a2 = document.createElement("a");
 const a3 = document.createElement("a");
 
-a1.href = "indeex.html";
-a2.href = "abauty.html";
-a3.href = "contacty.html";
+a1.href = "index.html";
+a2.href = "abaut.html";
+a3.href = "contact.html";
 
 a1.textContent = "Home";
 a2.textContent = "About";
