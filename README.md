@@ -1,3 +1,3 @@
-This is a GIT repo
+Personal website
 
 
